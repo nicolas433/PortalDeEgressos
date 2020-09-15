@@ -1,0 +1,71 @@
+:root {
+  --bold: 600;
+  --normal: 400;
+  --thin: 100;
+}
+
+:focus {
+  outline: none;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('./assets/fonts/Roboto-Regular.ttf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Roboto;
+  color: #171718;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+h3 {
+  font-weight: var(--bold)
+}
+
+b, strong {
+  font-weight: var(--bold)
+}
+
+.thin {
+  font-weight: var(--thin)
+}
+
+.hr {
+  border: none;
+  margin: 20px 0;
+  border-bottom: 1px solid #f6f7fb;
+}
